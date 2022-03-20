@@ -1,0 +1,59 @@
+body {
+    margin: 0 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    background-color: #fdfdfd;
+    max-width: 1860px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    margin: 100px 36%;
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    max-width: 25%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    font-size: 20px;
+    background-color: gainsboro;
+}
